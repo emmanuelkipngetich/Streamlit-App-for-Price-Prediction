@@ -14,9 +14,18 @@ product_name = st.text_input("Enter the name of the product")
 Promotion = st.number_input("Enter 1 if the product was on promotion and 0 if the product was not on promotion")
 transactions = st.number_input("Enter the number of transactions for the product")
 
+# Prediction
+if st.button("predict"):
+    #Dataframe Creation
+    pd.DataFrame(
+      {
+       "product_name" : [product_name], "Promotion_1":  [Promotion], "transactions":[transactions]
+          
+      }  
+   
+    )
 
-
-
+print(f"[info] Input data as dataframe :\n{df.to_markdown()}")
 
 
 
