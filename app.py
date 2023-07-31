@@ -17,7 +17,7 @@ transactions = st.number_input("Enter the number of transactions for the product
 # Prediction
 if st.button("predict"):
     #Dataframe Creation
-    pd.DataFrame(
+    df = pd.DataFrame(
       {
        "product_name" : [product_name], "Promotion_1":  [Promotion], "transactions":[transactions]
           
@@ -25,7 +25,7 @@ if st.button("predict"):
    
     )
 
-print(f"[info] Input data as dataframe :\n{df.to_markdown()}")
+    print(f"[info] Input data as dataframe :\n{df.to_markdown()}")
 
 
 
