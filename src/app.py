@@ -41,11 +41,17 @@ Promotion = st.selectbox("On promotion,0 for No and 1 for Yes", [0, 1])
 transactions = st.number_input("Enter the number of transactions for the product")
 dcoilwtico = st.number_input("Enter the oil price (dcoilwtico)")
 
-products = st.selectbox('products', ['AUTOMOTIVE', 'CLEANING', 'BEAUTY', 'FOODS',
-                                     'CELEBRATION', 'GROCERY', 'HARDWARE', 'HOME', 'LADIESWEAR',
-                                     'LAWN AND GARDEN', 'CLOTHING', 'LIQUOR,WINE,BEER', 'PET SUPPLIES'])
-state = st.selectbox('state', ['Guayas', 'Santa Elena'])
-city = st.selectbox('city',['Salinas', 'Machala'])
+products = st.selectbox('products', ['AUTOMOTIVE', 'BABY CARE', 'BEAUTY', 'BEVERAGES', 'BOOKS',
+       'BREAD/BAKERY', 'CELEBRATION', 'CLEANING', 'DAIRY', 'DELI', 'EGGS',
+       'FROZEN FOODS', 'GROCERY I', 'GROCERY II', 'HARDWARE',
+       'HOME AND KITCHEN I', 'HOME AND KITCHEN II', 'HOME APPLIANCES',
+       'HOME CARE', 'LADIESWEAR', 'LAWN AND GARDEN', 'LINGERIE',
+       'LIQUOR,WINE,BEER', 'MAGAZINES', 'MEATS', 'PERSONAL CARE',
+       'PET SUPPLIES', 'PLAYERS AND ELECTRONICS', 'POULTRY',
+       'PREPARED FOODS', 'PRODUCE', 'SCHOOL AND OFFICE SUPPLIES',
+       'SEAFOOD'])
+state = st.selectbox('state', ['Santa Elena', 'El Oro', 'Guayas'])
+city = st.selectbox('city',['Salinas', 'Machala', 'Libertad'])
 weeklysales = st.number_input("weekly Sales,0=Sun and 6=Sat", step=1)
 
 
