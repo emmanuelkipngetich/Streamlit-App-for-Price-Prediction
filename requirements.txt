@@ -153,4 +153,3 @@ xgboost==1.7.5
 XlsxWriter==3.0.8
 yfinance==0.2.11
 zipp==3.16.2
- 
