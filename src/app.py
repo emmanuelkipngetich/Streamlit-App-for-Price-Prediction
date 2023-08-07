@@ -117,6 +117,6 @@ if st.button("predict"):
     predictions = model.predict(data_scaled)
 
     # Display the predictions
-    st.write("Predicted Sales:")
-    st.write(predictions)
-    
+    st.balloons()
+    # Display the predictions with custom styling
+    st.success(f"Predicted Sales: {predictions[0]:,.2f}")
