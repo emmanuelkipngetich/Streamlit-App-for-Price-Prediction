@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="c:\Users\Newton\Git Hub\Linear Regression app\Sales-Prediction-App-1\.venv"
+VIRTUAL_ENV="c:\Users\Newton\Git Hub\Linear Regression app\Sales-Prediction-App-2\.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
