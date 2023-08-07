@@ -7,11 +7,11 @@ The SalesForecastApp empowers inventory managers, supply chain managers, and sto
 ## Recap
  This project was part of a comprehensive data analysis and machine learning project, where various steps such as data cleaning, data exploration, hypothesis testing, feature engineering, and model evaluation were performed to build robust forecasting models. The app showcases the final model and its predictions, making it a valuable tool for data-driven decision-making in the retail domain.
 
- # Preview
- ![](Link)
+ # App Interface
+ ![Interface of the app](Link)
 
  # Setup
-You need Python3 on your system to setup this app. Then you can clone this repo and being at the repo's root :: streamlit-iris-app> ... follow the steps below:
+You need Python3 on your system to setup this app. Then you can clone this repo and being at the repo's root :: streamlit sales prediction app> ... follow the steps below:
 * Windows
 ```python
     python -m venv venv; venv\Scripts\activate; python -m pip install -q --upgrade pip; python -m pip install -qr requirements.txt 
