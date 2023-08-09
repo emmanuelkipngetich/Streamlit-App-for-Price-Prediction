@@ -7,7 +7,7 @@ import os
 import pickle
 
 # Function to load machine learning components
-def load_components_func(fp):
+def load_components_function(fp):
     #To load the machine learning components saved to re-use in the app
     with open(fp,"rb") as f:
         object = pickle.load(f)
@@ -17,7 +17,7 @@ def load_components_func(fp):
 # Loading the machine learning components
 DIRPATH = os.path.dirname(os.path.realpath(__file__))
 ml_core_fp = os.path.join(DIRPATH,"Assets","Sales_Pred_model.pkl")
-ml_components_dict = load_components_func(fp=ml_core_fp)
+ml_components_dict = load_components_function(fp=ml_core_fp)
 
 
 
@@ -38,7 +38,7 @@ st.write("""Welcome to Corporation Favorita Sales Prediction app!
      """)
 
 #Image
-st.image("https://images.startups.co.uk/wp-content/uploads/2023/05/sales-forecast.jpg?width=709&height=460&fit=crop")
+st.image("https://www.google.com/url?sa=i&url=https%3A%2F%2Fprezi.com%2Fp%2Fn6ludacxmg-w%2Fcorporacion-la-favorita%2F&psig=AOvVaw0wkxmBhCm5wy2YIW1roiP-&ust=1691655961449000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCD6teTz4ADFQAAAAAdAAAAABAE")
 with st.form(key="information",clear_on_submit=True):
     date = st.date_input("Date")
     Promotion = st.selectbox("On promotion,0 for No and 1 for Yes", [0, 1])
@@ -60,7 +60,7 @@ with st.form(key="information",clear_on_submit=True):
 
 
     # Prediction
-    if st.form_submit_button("predict"):
+    if st.form_submit_button("Predict"):
         # Dataframe Creation
         data = pd.DataFrame({
             "onpromotion": [Promotion],
