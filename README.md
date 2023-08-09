@@ -6,6 +6,7 @@ The SalesForecastApp empowers inventory managers, supply chain managers, and sto
 
 ## Recap
  This project was part of a comprehensive data analysis and machine learning project, where various steps such as data cleaning, data exploration, hypothesis testing, feature engineering, and model evaluation were performed to build robust forecasting models. The app showcases the final model and its predictions, making it a valuable tool for data-driven decision-making in the retail domain.
+ This project was executed by Newton Kimathi as the lead and Emmanuel Koech as a collaborator.
 
  # App Interface
  ![Interface of the app](Link)
